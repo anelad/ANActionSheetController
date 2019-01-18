@@ -1,0 +1,7 @@
+platform :ios, '11.0'
+
+target 'ANActionSheet-Example' do
+  use_frameworks!
+  pod 'ANActionSheet', :path => '../'
+  pod "TouchVisualizer"
+end
