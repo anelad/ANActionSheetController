@@ -7,128 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F442F53F93B1DC1035E3476 /* Pods_ANActionSheet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A90BA26984F292B87DD571E /* Pods_ANActionSheet_Example.framework */; };
-		A15A2AC521F0C4D3001C1FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A2AC421F0C4D3001C1FC1 /* AppDelegate.swift */; };
-		A15A2AC721F0C4D3001C1FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A2AC621F0C4D3001C1FC1 /* ViewController.swift */; };
-		A15A2ACA21F0C4D3001C1FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15A2AC821F0C4D3001C1FC1 /* Main.storyboard */; };
-		A15A2ACC21F0C4D4001C1FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15A2ACB21F0C4D4001C1FC1 /* Assets.xcassets */; };
-		A15A2ACF21F0C4D4001C1FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15A2ACD21F0C4D4001C1FC1 /* LaunchScreen.storyboard */; };
-		A17176B521F267AE0043191F /* introrustg-base2line.otf in Resources */ = {isa = PBXBuildFile; fileRef = A17176B421F265270043191F /* introrustg-base2line.otf */; };
+		547739AD364C23E4DBB59ADE /* Pods_ANActionSheetController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437ACE8428E46D8321BFC1AD /* Pods_ANActionSheetController_Example.framework */; };
+		A18B499421F29C56008BD40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B499321F29C56008BD40E /* AppDelegate.swift */; };
+		A18B499621F29C56008BD40E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B499521F29C56008BD40E /* ViewController.swift */; };
+		A18B499921F29C56008BD40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18B499721F29C56008BD40E /* Main.storyboard */; };
+		A18B499B21F29C56008BD40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18B499A21F29C56008BD40E /* Assets.xcassets */; };
+		A18B499E21F29C56008BD40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18B499C21F29C56008BD40E /* LaunchScreen.storyboard */; };
+		A18B49A621F29D3C008BD40E /* introrustg-base2line.otf in Resources */ = {isa = PBXBuildFile; fileRef = A18B49A521F29D3C008BD40E /* introrustg-base2line.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18E15FEFFBF13344873AA212 /* Pods-ANActionSheet-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANActionSheet-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ANActionSheet-Example/Pods-ANActionSheet-Example.release.xcconfig"; sourceTree = "<group>"; };
-		2D7BD93E306DB08D2FAE6AD2 /* Pods-ANActionSheet-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANActionSheet-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ANActionSheet-Example/Pods-ANActionSheet-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3A90BA26984F292B87DD571E /* Pods_ANActionSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANActionSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A15A2AC121F0C4D3001C1FC1 /* ANActionSheet-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ANActionSheet-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A15A2AC421F0C4D3001C1FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A15A2AC621F0C4D3001C1FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A15A2AC921F0C4D3001C1FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A15A2ACB21F0C4D4001C1FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A15A2ACE21F0C4D4001C1FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A15A2AD021F0C4D5001C1FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A17176B421F265270043191F /* introrustg-base2line.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "introrustg-base2line.otf"; sourceTree = "<group>"; };
+		05AC8341400855CE690852F4 /* Pods-ANActionSheetController-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANActionSheetController-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ANActionSheetController-Example/Pods-ANActionSheetController-Example.release.xcconfig"; sourceTree = "<group>"; };
+		437ACE8428E46D8321BFC1AD /* Pods_ANActionSheetController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANActionSheetController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18B499021F29C56008BD40E /* ANActionSheetController-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ANActionSheetController-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18B499321F29C56008BD40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A18B499521F29C56008BD40E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A18B499821F29C56008BD40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A18B499A21F29C56008BD40E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A18B499D21F29C56008BD40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A18B499F21F29C56008BD40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18B49A521F29D3C008BD40E /* introrustg-base2line.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "introrustg-base2line.otf"; sourceTree = "<group>"; };
+		B95AB7228B403A424C403363 /* Pods-ANActionSheetController-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANActionSheetController-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ANActionSheetController-Example/Pods-ANActionSheetController-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A15A2ABE21F0C4D3001C1FC1 /* Frameworks */ = {
+		A18B498D21F29C56008BD40E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F442F53F93B1DC1035E3476 /* Pods_ANActionSheet_Example.framework in Frameworks */,
+				547739AD364C23E4DBB59ADE /* Pods_ANActionSheetController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11E4D55F00D7D225CF7B2C4C /* Pods */ = {
+		19A12E78F1C3E63B3CB7A6D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2D7BD93E306DB08D2FAE6AD2 /* Pods-ANActionSheet-Example.debug.xcconfig */,
-				18E15FEFFBF13344873AA212 /* Pods-ANActionSheet-Example.release.xcconfig */,
+				B95AB7228B403A424C403363 /* Pods-ANActionSheetController-Example.debug.xcconfig */,
+				05AC8341400855CE690852F4 /* Pods-ANActionSheetController-Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		719940A0CA96C110F12281A4 /* Frameworks */ = {
+		A18B498721F29C56008BD40E = {
 			isa = PBXGroup;
 			children = (
-				3A90BA26984F292B87DD571E /* Pods_ANActionSheet_Example.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A15A2AB821F0C4D3001C1FC1 = {
-			isa = PBXGroup;
-			children = (
-				A15A2AC321F0C4D3001C1FC1 /* ANActionSheet-Example */,
-				A15A2AC221F0C4D3001C1FC1 /* Products */,
-				11E4D55F00D7D225CF7B2C4C /* Pods */,
-				719940A0CA96C110F12281A4 /* Frameworks */,
+				A18B499221F29C56008BD40E /* ANActionSheetController-Example */,
+				A18B499121F29C56008BD40E /* Products */,
+				19A12E78F1C3E63B3CB7A6D6 /* Pods */,
+				B0D708D744915CAE7E27F4E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A15A2AC221F0C4D3001C1FC1 /* Products */ = {
+		A18B499121F29C56008BD40E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A15A2AC121F0C4D3001C1FC1 /* ANActionSheet-Example.app */,
+				A18B499021F29C56008BD40E /* ANActionSheetController-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A15A2AC321F0C4D3001C1FC1 /* ANActionSheet-Example */ = {
+		A18B499221F29C56008BD40E /* ANActionSheetController-Example */ = {
 			isa = PBXGroup;
 			children = (
-				A15A2AC421F0C4D3001C1FC1 /* AppDelegate.swift */,
-				A15A2AC621F0C4D3001C1FC1 /* ViewController.swift */,
-				A15A2AC821F0C4D3001C1FC1 /* Main.storyboard */,
-				A15A2ACB21F0C4D4001C1FC1 /* Assets.xcassets */,
-				A15A2ACD21F0C4D4001C1FC1 /* LaunchScreen.storyboard */,
-				A15A2AD021F0C4D5001C1FC1 /* Info.plist */,
-				A17176B421F265270043191F /* introrustg-base2line.otf */,
+				A18B499321F29C56008BD40E /* AppDelegate.swift */,
+				A18B499521F29C56008BD40E /* ViewController.swift */,
+				A18B499721F29C56008BD40E /* Main.storyboard */,
+				A18B499A21F29C56008BD40E /* Assets.xcassets */,
+				A18B499C21F29C56008BD40E /* LaunchScreen.storyboard */,
+				A18B499F21F29C56008BD40E /* Info.plist */,
+				A18B49A521F29D3C008BD40E /* introrustg-base2line.otf */,
 			);
-			path = "ANActionSheet-Example";
+			path = "ANActionSheetController-Example";
+			sourceTree = "<group>";
+		};
+		B0D708D744915CAE7E27F4E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				437ACE8428E46D8321BFC1AD /* Pods_ANActionSheetController_Example.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A15A2AC021F0C4D3001C1FC1 /* ANActionSheet-Example */ = {
+		A18B498F21F29C56008BD40E /* ANActionSheetController-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A15A2AD321F0C4D5001C1FC1 /* Build configuration list for PBXNativeTarget "ANActionSheet-Example" */;
+			buildConfigurationList = A18B49A221F29C56008BD40E /* Build configuration list for PBXNativeTarget "ANActionSheetController-Example" */;
 			buildPhases = (
-				3D3F1D0A6C2BEA9DE3A16D2C /* [CP] Check Pods Manifest.lock */,
-				A15A2ABD21F0C4D3001C1FC1 /* Sources */,
-				A15A2ABE21F0C4D3001C1FC1 /* Frameworks */,
-				A15A2ABF21F0C4D3001C1FC1 /* Resources */,
-				1F72B1627A5CD9642FDBE80E /* [CP] Embed Pods Frameworks */,
+				324633865CC5AC6D5A24B8B1 /* [CP] Check Pods Manifest.lock */,
+				A18B498C21F29C56008BD40E /* Sources */,
+				A18B498D21F29C56008BD40E /* Frameworks */,
+				A18B498E21F29C56008BD40E /* Resources */,
+				0010C588D0A9B485A91107FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ANActionSheet-Example";
-			productName = "ANActionSheet-Example";
-			productReference = A15A2AC121F0C4D3001C1FC1 /* ANActionSheet-Example.app */;
+			name = "ANActionSheetController-Example";
+			productName = "ANActionSheetController-Example";
+			productReference = A18B499021F29C56008BD40E /* ANActionSheetController-Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A15A2AB921F0C4D3001C1FC1 /* Project object */ = {
+		A18B498821F29C56008BD40E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Anelad Nailaben";
 				TargetAttributes = {
-					A15A2AC021F0C4D3001C1FC1 = {
+					A18B498F21F29C56008BD40E = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = A15A2ABC21F0C4D3001C1FC1 /* Build configuration list for PBXProject "ANActionSheet-Example" */;
+			buildConfigurationList = A18B498B21F29C56008BD40E /* Build configuration list for PBXProject "ANActionSheetController-Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,52 +136,52 @@
 				en,
 				Base,
 			);
-			mainGroup = A15A2AB821F0C4D3001C1FC1;
-			productRefGroup = A15A2AC221F0C4D3001C1FC1 /* Products */;
+			mainGroup = A18B498721F29C56008BD40E;
+			productRefGroup = A18B499121F29C56008BD40E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A15A2AC021F0C4D3001C1FC1 /* ANActionSheet-Example */,
+				A18B498F21F29C56008BD40E /* ANActionSheetController-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A15A2ABF21F0C4D3001C1FC1 /* Resources */ = {
+		A18B498E21F29C56008BD40E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15A2ACF21F0C4D4001C1FC1 /* LaunchScreen.storyboard in Resources */,
-				A15A2ACC21F0C4D4001C1FC1 /* Assets.xcassets in Resources */,
-				A17176B521F267AE0043191F /* introrustg-base2line.otf in Resources */,
-				A15A2ACA21F0C4D3001C1FC1 /* Main.storyboard in Resources */,
+				A18B499E21F29C56008BD40E /* LaunchScreen.storyboard in Resources */,
+				A18B499B21F29C56008BD40E /* Assets.xcassets in Resources */,
+				A18B49A621F29D3C008BD40E /* introrustg-base2line.otf in Resources */,
+				A18B499921F29C56008BD40E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F72B1627A5CD9642FDBE80E /* [CP] Embed Pods Frameworks */ = {
+		0010C588D0A9B485A91107FA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ANActionSheet-Example/Pods-ANActionSheet-Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ANActionSheet/ANActionSheet.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-ANActionSheetController-Example/Pods-ANActionSheetController-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ANActionSheetController/ANActionSheetController.framework",
 				"${BUILT_PRODUCTS_DIR}/TouchVisualizer/TouchVisualizer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ANActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ANActionSheetController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TouchVisualizer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ANActionSheet-Example/Pods-ANActionSheet-Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ANActionSheetController-Example/Pods-ANActionSheetController-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3D3F1D0A6C2BEA9DE3A16D2C /* [CP] Check Pods Manifest.lock */ = {
+		324633865CC5AC6D5A24B8B1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,7 +192,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ANActionSheet-Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ANActionSheetController-Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -202,30 +202,30 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A15A2ABD21F0C4D3001C1FC1 /* Sources */ = {
+		A18B498C21F29C56008BD40E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15A2AC721F0C4D3001C1FC1 /* ViewController.swift in Sources */,
-				A15A2AC521F0C4D3001C1FC1 /* AppDelegate.swift in Sources */,
+				A18B499621F29C56008BD40E /* ViewController.swift in Sources */,
+				A18B499421F29C56008BD40E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A15A2AC821F0C4D3001C1FC1 /* Main.storyboard */ = {
+		A18B499721F29C56008BD40E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A15A2AC921F0C4D3001C1FC1 /* Base */,
+				A18B499821F29C56008BD40E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A15A2ACD21F0C4D4001C1FC1 /* LaunchScreen.storyboard */ = {
+		A18B499C21F29C56008BD40E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A15A2ACE21F0C4D4001C1FC1 /* Base */,
+				A18B499D21F29C56008BD40E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -233,7 +233,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A15A2AD121F0C4D5001C1FC1 /* Debug */ = {
+		A18B49A021F29C56008BD40E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,7 +294,7 @@
 			};
 			name = Debug;
 		};
-		A15A2AD221F0C4D5001C1FC1 /* Release */ = {
+		A18B49A121F29C56008BD40E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,32 +349,38 @@
 			};
 			name = Release;
 		};
-		A15A2AD421F0C4D5001C1FC1 /* Debug */ = {
+		A18B49A321F29C56008BD40E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D7BD93E306DB08D2FAE6AD2 /* Pods-ANActionSheet-Example.debug.xcconfig */;
+			baseConfigurationReference = B95AB7228B403A424C403363 /* Pods-ANActionSheetController-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9ZVWEMJZF;
-				INFOPLIST_FILE = "ANActionSheet-Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anelad.ANActionSheet-Example";
+				INFOPLIST_FILE = "ANActionSheetController-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anelad.ANActionSheetController-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A15A2AD521F0C4D5001C1FC1 /* Release */ = {
+		A18B49A421F29C56008BD40E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E15FEFFBF13344873AA212 /* Pods-ANActionSheet-Example.release.xcconfig */;
+			baseConfigurationReference = 05AC8341400855CE690852F4 /* Pods-ANActionSheetController-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9ZVWEMJZF;
-				INFOPLIST_FILE = "ANActionSheet-Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anelad.ANActionSheet-Example";
+				INFOPLIST_FILE = "ANActionSheetController-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anelad.ANActionSheetController-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,25 +390,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A15A2ABC21F0C4D3001C1FC1 /* Build configuration list for PBXProject "ANActionSheet-Example" */ = {
+		A18B498B21F29C56008BD40E /* Build configuration list for PBXProject "ANActionSheetController-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A15A2AD121F0C4D5001C1FC1 /* Debug */,
-				A15A2AD221F0C4D5001C1FC1 /* Release */,
+				A18B49A021F29C56008BD40E /* Debug */,
+				A18B49A121F29C56008BD40E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A15A2AD321F0C4D5001C1FC1 /* Build configuration list for PBXNativeTarget "ANActionSheet-Example" */ = {
+		A18B49A221F29C56008BD40E /* Build configuration list for PBXNativeTarget "ANActionSheetController-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A15A2AD421F0C4D5001C1FC1 /* Debug */,
-				A15A2AD521F0C4D5001C1FC1 /* Release */,
+				A18B49A321F29C56008BD40E /* Debug */,
+				A18B49A421F29C56008BD40E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A15A2AB921F0C4D3001C1FC1 /* Project object */;
+	rootObject = A18B498821F29C56008BD40E /* Project object */;
 }

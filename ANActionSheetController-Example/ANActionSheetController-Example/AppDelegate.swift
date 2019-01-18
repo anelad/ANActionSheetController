@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ANActionSheet-Example
+//  ANActionSheetController-Example
 //
-//  Created by Arda Oğul Üçpınar on 17.01.2019.
+//  Created by Arda Oğul Üçpınar on 19.01.2019.
 //  Copyright © 2019 Anelad Nailaben. All rights reserved.
 //
 
@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    // Override point for customization after application launch.
     return true
   }
 

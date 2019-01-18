@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ANActionSheet
+import ANActionSheetController
 import TouchVisualizer
 
 class ViewController: UIViewController {
