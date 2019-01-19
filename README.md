@@ -6,7 +6,7 @@ ANActionSheetController is a highly customizable UIAlertController replica, look
 
 # Why?
 
-ANActionSheetController is can have many actions, a cancel action dedicated from the other actions, and a title and message, as the built-in UIAlertController. But the difference is; you can customize -almost– every attributes.
+ANActionSheetController can have many actions, a cancel action dedicated from the other actions, and a title and/or message, as the built-in UIAlertController. But the difference is; you can customize -almost– every attributes.
 
 Only required thing is having at least 1 action.
 
@@ -126,6 +126,12 @@ actionSheetController.appearence = ANActionSheetAppearence.aCustomAppearence
 ....
 
 
+```
+
+Then present it:
+
+``` swift
+myController.present(actionSheetController, animated: true, completion: nil)
 ```
 
 
