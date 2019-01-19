@@ -5,8 +5,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   s.description      = <<-DESC
-ANActionSheetController is a highly customizable UIAlertController replica, looks like built-in action sheet, works on iPad too.
-It's -almost- all atrributes, buttons etc. are customizable.
+ANActionSheetController is a highly customizable UIAlertController replica, looks like built-in action sheet, works on iPad too. It's -almost- all atrributes, buttons etc. are customizable.
                        DESC
 
   s.homepage         = 'https://github.com/anelad/ANActionSheetController'
