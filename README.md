@@ -56,6 +56,8 @@ Download the repository
 
 Add `ANActionSheetController/Source` folder - or its contents- to your project
 
+# Documentation
+[Check documentation file](https://github.com/anelad/ANActionSheetController/wiki/Documentation)
 
 # Usage
 

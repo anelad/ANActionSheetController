@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ANActionSheetController'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'ANActionSheetController is a highly customizable UIAlertController replica, looks like built-in action sheet, works on iPad too.'
   s.swift_version = '4.2'
 
@@ -19,5 +19,4 @@ ANActionSheetController is a highly customizable UIAlertController replica, look
   s.pod_target_xcconfig = { 'swift_version' => '4.2' }
 
   s.source_files = 'ANActionSheetController/Source/**/*'
-
 end
