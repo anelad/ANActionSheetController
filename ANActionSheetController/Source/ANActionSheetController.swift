@@ -24,14 +24,14 @@ public struct ANActionSheetAppearence {
 
   /// Color of the the space between action container and titleView and/or cancelAction. Default is clear color.
   /// When it's set to clear color, you will see the sheets shadowColor - if it's set- or it will be fully transparent.
-  public var seperatorColor: UIColor = .clear
+  public var separatorColor: UIColor = .clear
   /// Size of the the space between actions and titleView and/or cancelAction. Defaults to 3 px.
-  public var seperatorSize: CGFloat = 3
+  public var separatorSize: CGFloat = 3
 
   /// Color of the the space between actions. Default is clear color. When it's set to clear color, you will see the sheets seperator color.
-  public var buttonSeperatorColor: UIColor = .clear
+  public var actionSeparatorColor: UIColor = .clear
   /// Size of the space between actions. Default is 1.
-  public var buttonSeperatorSize: CGFloat = 1
+  public var actionSeparatorSize: CGFloat = 1
 
   /// Apearence struct for customizing all actions in ANActionSheet
   public struct ActionAppearence {
@@ -186,7 +186,7 @@ public final class ANActionSheetController: UIViewController {
     view.layer.shadowOpacity = appearence.shadowOpacity
 
     borderView.layer.cornerRadius = appearence.cornerRadius
-    borderView.backgroundColor = appearence.seperatorColor
+    borderView.backgroundColor = appearence.separatorColor
 
     titleContainer.backgroundColor = appearence.titleViewAppearence.backgroundColor
     titleView.textColor = appearence.titleViewAppearence.titleTextColor
@@ -194,7 +194,7 @@ public final class ANActionSheetController: UIViewController {
     messageView.textColor = appearence.titleViewAppearence.messageTextColor
     messageView.font = appearence.titleViewAppearence.messageFont
 
-    buttonContainer.backgroundColor = appearence.buttonSeperatorColor
+    buttonContainer.backgroundColor = appearence.actionSeparatorColor
 
 
     let hasTitleContainer = titleView.text != nil || messageView.text != nil
@@ -247,7 +247,7 @@ public final class ANActionSheetController: UIViewController {
     borderView.addSubview(buttonContainer)
 
     if hasTitleContainer {
-      borderView.addConstraint(NSLayoutConstraint.init(item: titleContainer, attribute: .bottom, relatedBy: .equal, toItem: buttonContainer, attribute: .top, multiplier: 1, constant: -appearence.seperatorSize))
+      borderView.addConstraint(NSLayoutConstraint.init(item: titleContainer, attribute: .bottom, relatedBy: .equal, toItem: buttonContainer, attribute: .top, multiplier: 1, constant: -appearence.separatorSize))
     } else {
       borderView.addConstraint(NSLayoutConstraint.init(item: borderView, attribute: .top, relatedBy: .equal, toItem: buttonContainer, attribute: .top, multiplier: 1, constant: 0))
     }
@@ -264,7 +264,7 @@ public final class ANActionSheetController: UIViewController {
       cancelButton.translatesAutoresizingMaskIntoConstraints = false
       borderView.addSubview(cancelButton)
 
-      borderView.addConstraint(NSLayoutConstraint.init(item: cancelButton, attribute: .top, relatedBy: .equal, toItem: buttonContainer, attribute: .bottom, multiplier: 1, constant: appearence.seperatorSize))
+      borderView.addConstraint(NSLayoutConstraint.init(item: cancelButton, attribute: .top, relatedBy: .equal, toItem: buttonContainer, attribute: .bottom, multiplier: 1, constant: appearence.separatorSize))
       borderView.addConstraint(NSLayoutConstraint.init(item: borderView, attribute: .leading, relatedBy: .equal, toItem: cancelButton, attribute: .leading, multiplier: 1, constant: 0))
       borderView.addConstraint(NSLayoutConstraint.init(item: borderView, attribute: .trailing, relatedBy: .equal, toItem: cancelButton, attribute: .trailing, multiplier: 1, constant: 0))
       borderView.addConstraint(NSLayoutConstraint.init(item: borderView, attribute: .bottom, relatedBy: .equal, toItem: cancelButton, attribute: .bottom, multiplier: 1, constant: 0))
@@ -290,7 +290,7 @@ public final class ANActionSheetController: UIViewController {
       }
       else{
         let prevButton = buttons[index - 1]
-        buttonContainer.addConstraint(NSLayoutConstraint.init(item: button, attribute: .top, relatedBy: .equal, toItem: prevButton, attribute: .bottom, multiplier: 1, constant: appearence.buttonSeperatorSize))
+        buttonContainer.addConstraint(NSLayoutConstraint.init(item: button, attribute: .top, relatedBy: .equal, toItem: prevButton, attribute: .bottom, multiplier: 1, constant: appearence.actionSeparatorSize))
       }
       if index == buttons.count - 1 {
         buttonContainer.addConstraint(NSLayoutConstraint.init(item: button, attribute: .bottom, relatedBy: .equal, toItem: buttonContainer, attribute: .bottom, multiplier: 1, constant:  0))

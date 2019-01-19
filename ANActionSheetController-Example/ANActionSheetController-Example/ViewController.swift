@@ -87,7 +87,7 @@ extension ANActionSheetAppearence {
 
     customAppearence.actionAppearence.titleColor = UIColor(red:0.929, green:0.922, blue:0.923, alpha: 1.000)
     customAppearence.actionAppearence.color = UIColor(red:0.69, green:0.714, blue:0.616, alpha: 1.000)
-    customAppearence.buttonSeperatorColor = UIColor.init(red: 0.427, green: 0.498, blue: 0.192, alpha: 1)
+    customAppearence.actionSeparatorColor = UIColor.init(red: 0.427, green: 0.498, blue: 0.192, alpha: 1)
 
     customAppearence.cancelActionAppearence.color = UIColor(red:0.929, green:0.922, blue:0.923, alpha: 1.000)
     customAppearence.cancelActionAppearence.titleColor = UIColor.init(red: 0.427, green: 0.498, blue: 0.192, alpha: 1)
@@ -101,7 +101,7 @@ extension ANActionSheetAppearence {
     customAppearence.shadowOffset = CGSize.zero
     customAppearence.shadowOpacity = 0.7
     customAppearence.shadowRadius = 10
-    customAppearence.seperatorSize = 6
+    customAppearence.separatorSize = 6
 
     return customAppearence
   }()
