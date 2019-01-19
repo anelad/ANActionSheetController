@@ -1,3 +1,10 @@
+![](https://img.shields.io/github/downloads/anelad/ANActionSheetController/total.svg)
+![](https://img.shields.io/github/license/anelad/ANActionSheetController.svg)
+![](https://img.shields.io/cocoapods/v/ANActionSheetController.svg)
+![](https://img.shields.io/cocoapods/p/ANActionSheetController.svg)
+![](https://img.shields.io/badge/swift%20version-4.2-green.svg)
+![](https://img.shields.io/badge/minimum%20deployment%20target-11.0-green.svg)
+
 # ANActionSheetController
 ANActionSheetController is a highly customizable UIAlertController replica, looks like built-in action sheet, works on iPad too.
 
@@ -60,7 +67,7 @@ First, create the controller:
 let actionSheetController = ANActionSheetController.init(title: "a title" , message: "a message")
 ```
 
-Then add actions - or buttons - :
+Then add actions:
 
 ``` swift
 actionSheetController.addAction(ANActionSheetNormalAction.init(title: "Button 1", handler: nil))
@@ -75,7 +82,7 @@ customButtonAppearence.font = UIFont.init(name: "IntroRustG-Base2Line", size: 17
 customButtonAppearence.titleColor = UIColor.red
 customButtonAppearence.minimumHeight = 10
 
-actionSheetController.addAction(ANActionSheetCustomAction.init(title: "Custom button with\nauto height\nred label \nand \ncustom font", apperarence: customButtonAppearence, handler: nil))
+actionSheetController.addAction(ANActionSheetCustomAction.init(title: "Custom Action", apperarence: customButtonAppearence, handler: nil))
 ```
 
 You can add a cancel button:
@@ -84,7 +91,7 @@ You can add a cancel button:
 action.setCancelAction(title: "Cancel Button")
 ```
 
-And customize the controller; for example:
+You can customize the controller; for example:
 
 ``` swift
 
@@ -138,9 +145,17 @@ myController.present(actionSheetController, animated: true, completion: nil)
 # Need to knows
 
 - You should set at least 1 action!
-- Considering action sheets higher than the screen size (especially on landscape phone screen) I used UIScrollView. If you have a better solution, please contact me at [info@ardaucpinar.com](mailto:info@ardaucpinar.com) or implement and create a pull request.
+- Considering action sheets higher than the screen size (especially on landscape phone screen) I used UIScrollView. If you have a better solution, please open asn issue.
 - Due to view hiearchy, background colors you set may not look like as expected. For example; if you set seperator to `blue` and buttonSeperator to `clear`, button seperators will be seen as `blue`.
 
 
+# Communication
 
+If you need help open an issue.
+If you found a bug, open an issue.
+If you want to contribute, submit a pull request.
+
+# License
+
+ANActionSheetController is released under the MIT license. See [LICENSE](LICENSE) for details.
 
