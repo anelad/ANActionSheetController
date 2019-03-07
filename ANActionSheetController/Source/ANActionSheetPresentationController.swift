@@ -40,8 +40,12 @@ final class ANActionSheetPresentationController: UIPresentationController {
 
   override func containerViewWillLayoutSubviews() {
     var bottomMargin: CGFloat = 8
-    if let safeBottom = containerView?.safeAreaInsets.bottom, safeBottom > 0 {
-      bottomMargin = safeBottom
+    if #available(iOS 11.0, *) {
+      if let safeBottom = containerView?.safeAreaInsets.bottom, safeBottom > 0 {
+        bottomMargin = safeBottom
+      }
+    } else {
+      bottomMargin = 0
     }
 
     dimmingView.frame = (containerView?.bounds)!
