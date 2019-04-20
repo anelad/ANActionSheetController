@@ -7,14 +7,11 @@
 //
 
 import UIKit
-import ANActionSheetController
-import TouchVisualizer
 
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    Visualizer.start()
 
   }
 

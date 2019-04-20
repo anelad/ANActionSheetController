@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		547739AD364C23E4DBB59ADE /* Pods_ANActionSheetController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437ACE8428E46D8321BFC1AD /* Pods_ANActionSheetController_Example.framework */; };
 		A18B499421F29C56008BD40E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B499321F29C56008BD40E /* AppDelegate.swift */; };
 		A18B499621F29C56008BD40E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B499521F29C56008BD40E /* ViewController.swift */; };
 		A18B499921F29C56008BD40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18B499721F29C56008BD40E /* Main.storyboard */; };
 		A18B499B21F29C56008BD40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18B499A21F29C56008BD40E /* Assets.xcassets */; };
 		A18B499E21F29C56008BD40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18B499C21F29C56008BD40E /* LaunchScreen.storyboard */; };
 		A18B49A621F29D3C008BD40E /* introrustg-base2line.otf in Resources */ = {isa = PBXBuildFile; fileRef = A18B49A521F29D3C008BD40E /* introrustg-base2line.otf */; };
+		A1E59BD6226B5A4C00346A08 /* AnActionSheet+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E59BD1226B5A4C00346A08 /* AnActionSheet+UIViewControllerTransitioningDelegate.swift */; };
+		A1E59BD7226B5A4C00346A08 /* ANActionSheetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E59BD2226B5A4C00346A08 /* ANActionSheetButton.swift */; };
+		A1E59BD8226B5A4C00346A08 /* ANActionSheetController+UIViewControllerAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E59BD3226B5A4C00346A08 /* ANActionSheetController+UIViewControllerAnimatedTransitioning.swift */; };
+		A1E59BD9226B5A4C00346A08 /* ANActionSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E59BD4226B5A4C00346A08 /* ANActionSheetController.swift */; };
+		A1E59BDA226B5A4C00346A08 /* ANActionSheetPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E59BD5226B5A4C00346A08 /* ANActionSheetPresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05AC8341400855CE690852F4 /* Pods-ANActionSheetController-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANActionSheetController-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ANActionSheetController-Example/Pods-ANActionSheetController-Example.release.xcconfig"; sourceTree = "<group>"; };
-		437ACE8428E46D8321BFC1AD /* Pods_ANActionSheetController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANActionSheetController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18B499021F29C56008BD40E /* ANActionSheetController-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ANActionSheetController-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18B499321F29C56008BD40E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A18B499521F29C56008BD40E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +29,11 @@
 		A18B499D21F29C56008BD40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A18B499F21F29C56008BD40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A18B49A521F29D3C008BD40E /* introrustg-base2line.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "introrustg-base2line.otf"; sourceTree = "<group>"; };
-		B95AB7228B403A424C403363 /* Pods-ANActionSheetController-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ANActionSheetController-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ANActionSheetController-Example/Pods-ANActionSheetController-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E59BD1226B5A4C00346A08 /* AnActionSheet+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnActionSheet+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		A1E59BD2226B5A4C00346A08 /* ANActionSheetButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANActionSheetButton.swift; sourceTree = "<group>"; };
+		A1E59BD3226B5A4C00346A08 /* ANActionSheetController+UIViewControllerAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ANActionSheetController+UIViewControllerAnimatedTransitioning.swift"; sourceTree = "<group>"; };
+		A1E59BD4226B5A4C00346A08 /* ANActionSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANActionSheetController.swift; sourceTree = "<group>"; };
+		A1E59BD5226B5A4C00346A08 /* ANActionSheetPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANActionSheetPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,29 +41,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547739AD364C23E4DBB59ADE /* Pods_ANActionSheetController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19A12E78F1C3E63B3CB7A6D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B95AB7228B403A424C403363 /* Pods-ANActionSheetController-Example.debug.xcconfig */,
-				05AC8341400855CE690852F4 /* Pods-ANActionSheetController-Example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		A18B498721F29C56008BD40E = {
 			isa = PBXGroup;
 			children = (
+				A1E59BCF226B5A4C00346A08 /* ANActionSheetController */,
 				A18B499221F29C56008BD40E /* ANActionSheetController-Example */,
 				A18B499121F29C56008BD40E /* Products */,
-				19A12E78F1C3E63B3CB7A6D6 /* Pods */,
-				B0D708D744915CAE7E27F4E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +78,25 @@
 			path = "ANActionSheetController-Example";
 			sourceTree = "<group>";
 		};
-		B0D708D744915CAE7E27F4E0 /* Frameworks */ = {
+		A1E59BCF226B5A4C00346A08 /* ANActionSheetController */ = {
 			isa = PBXGroup;
 			children = (
-				437ACE8428E46D8321BFC1AD /* Pods_ANActionSheetController_Example.framework */,
+				A1E59BD0226B5A4C00346A08 /* Source */,
 			);
-			name = Frameworks;
+			name = ANActionSheetController;
+			path = ../ANActionSheetController;
+			sourceTree = "<group>";
+		};
+		A1E59BD0226B5A4C00346A08 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A1E59BD1226B5A4C00346A08 /* AnActionSheet+UIViewControllerTransitioningDelegate.swift */,
+				A1E59BD2226B5A4C00346A08 /* ANActionSheetButton.swift */,
+				A1E59BD3226B5A4C00346A08 /* ANActionSheetController+UIViewControllerAnimatedTransitioning.swift */,
+				A1E59BD4226B5A4C00346A08 /* ANActionSheetController.swift */,
+				A1E59BD5226B5A4C00346A08 /* ANActionSheetPresentationController.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,11 +106,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A18B49A221F29C56008BD40E /* Build configuration list for PBXNativeTarget "ANActionSheetController-Example" */;
 			buildPhases = (
-				324633865CC5AC6D5A24B8B1 /* [CP] Check Pods Manifest.lock */,
 				A18B498C21F29C56008BD40E /* Sources */,
 				A18B498D21F29C56008BD40E /* Frameworks */,
 				A18B498E21F29C56008BD40E /* Resources */,
-				0010C588D0A9B485A91107FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +131,7 @@
 				TargetAttributes = {
 					A18B498F21F29C56008BD40E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -160,54 +167,18 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		0010C588D0A9B485A91107FA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ANActionSheetController-Example/Pods-ANActionSheetController-Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ANActionSheetController/ANActionSheetController.framework",
-				"${BUILT_PRODUCTS_DIR}/TouchVisualizer/TouchVisualizer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ANActionSheetController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TouchVisualizer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ANActionSheetController-Example/Pods-ANActionSheetController-Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		324633865CC5AC6D5A24B8B1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ANActionSheetController-Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		A18B498C21F29C56008BD40E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E59BD9226B5A4C00346A08 /* ANActionSheetController.swift in Sources */,
 				A18B499621F29C56008BD40E /* ViewController.swift in Sources */,
+				A1E59BD6226B5A4C00346A08 /* AnActionSheet+UIViewControllerTransitioningDelegate.swift in Sources */,
+				A1E59BD7226B5A4C00346A08 /* ANActionSheetButton.swift in Sources */,
+				A1E59BDA226B5A4C00346A08 /* ANActionSheetPresentationController.swift in Sources */,
 				A18B499421F29C56008BD40E /* AppDelegate.swift in Sources */,
+				A1E59BD8226B5A4C00346A08 /* ANActionSheetController+UIViewControllerAnimatedTransitioning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +322,6 @@
 		};
 		A18B49A321F29C56008BD40E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B95AB7228B403A424C403363 /* Pods-ANActionSheetController-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -364,14 +334,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anelad.ANActionSheetController-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		A18B49A421F29C56008BD40E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05AC8341400855CE690852F4 /* Pods-ANActionSheetController-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -384,7 +353,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anelad.ANActionSheetController-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
