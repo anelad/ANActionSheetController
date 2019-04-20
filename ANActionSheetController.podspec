@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ANActionSheetController'
   s.version          = '1.1.0'
-  s.summary          = 'ANActionSheetController is a highly customizable UIAlertController replica, looks like built-in action sheet, works on iPad too. Written in Swift 5'
+  s.summary          = 'ANActionSheetController is a highly customizable UIAlertController replica, looks like built-in action sheet, works on iPad too.'
   s.swift_version = '5.0'
 
   s.description      = <<-DESC
